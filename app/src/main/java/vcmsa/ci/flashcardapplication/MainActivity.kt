@@ -13,6 +13,7 @@ import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
 
+    //Declaring my variables for the application UI
     private lateinit var titleMessage: TextView
     private lateinit var welcomeMessage: TextView
     private lateinit var startBtn: Button
@@ -23,16 +24,20 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        val titleMessage: TextView = findViewById(R.id.titleMessage)
-        val welcomeMessage: TextView = findViewById(R.id.welcomeMessage)
-        val startBtn: Button = findViewById(R.id.startBtn)
-        val exitBtn: Button = findViewById(R.id.exitBtn)
+        //Initialising the values for my buttons and text views
+        titleMessage = findViewById(R.id.titleMessage)
+        welcomeMessage = findViewById(R.id.welcomeMessage)
+        startBtn = findViewById(R.id.startBtn)
+        exitBtn = findViewById(R.id.exitBtn)
 
+        //The button which will take the user to the quiz screen
         startBtn.setOnClickListener {
             val intent = Intent(this, QuizScreen::class.java)
             startActivity(intent)
+            finish()
         }
 
+        //The button which will end the application whenever the user wants to
         exitBtn.setOnClickListener {
          finishAffinity() //Close all activities
          exitProcess(0) //Terminate the process
