@@ -1,6 +1,7 @@
 package vcmsa.ci.flashcardapplication
 
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -61,10 +62,12 @@ class QuizScreen : AppCompatActivity() {
 
         //THe button allows the user to go to the next question after giving their answer
         nextBtn.setOnClickListener {
+            currentQuestionInfo++
             if (currentQuestionInfo < questions.size){
-                currentQuestionInfo++
                 displayQuestion()
                 feedbackTextView.text = ""
+                trueBtn.isEnabled = true
+                falseBtn.isEnabled = true
             }else{
                 feedbackTextView.text = "You finished the quiz, well done. Final score: $score"
                 nextBtn.isEnabled = false
@@ -74,9 +77,9 @@ class QuizScreen : AppCompatActivity() {
         //This will take the user to the score screen
         scoreBtn.setOnClickListener {
             val intent = Intent(this, ScoreScreen::class.java)
+            intent.putExtra("score", score)
             startActivity(intent)
         }
-
     }
 
     //The function which displays the questions to the user
@@ -89,9 +92,11 @@ class QuizScreen : AppCompatActivity() {
         val correctAnswer = answers[currentQuestionInfo]
         if (userAnswer == correctAnswer){
             feedbackTextView.text = "Correct!"
+            feedbackTextView.setTextColor(Color.GREEN)
             score++
         }else{
             feedbackTextView.text = "Incorrect!"
+            feedbackTextView.setTextColor(Color.RED)
         }
     }
 

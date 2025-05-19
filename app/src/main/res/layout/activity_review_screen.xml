@@ -5,56 +5,41 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ScoreScreen">
+    tools:context=".ReviewScreen">
 
     <TextView
-        android:id="@+id/quizScoreTextView"
-        android:layout_width="297dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="40dp"
+        android:id="@+id/reviewTextView"
+        android:layout_width="206dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="32dp"
         android:gravity="center"
         android:text="TextView"
-        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/quizFeedbackTextView"
-        android:layout_width="334dp"
-        android:layout_height="272dp"
-        android:layout_marginTop="184dp"
-        android:gravity="center"
-        android:hint=""
-        android:text=""
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
-        android:id="@+id/reviewBtn"
+        android:id="@+id/exit3Btn"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="140dp"
-        android:text="Review"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/exit2Btn"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="44dp"
         android:text="Exit"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.147"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <Button
+        android:id="@+id/back2Btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:text="Back"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
