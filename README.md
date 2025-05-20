@@ -8,3 +8,5 @@ The purpose for my Flashcard application was created to help users study while u
 
 REFERENCES
 
+1. https://medium.com/@atushar580/building-an-android-quiz-app-with-kotlin-a-step-by-step-guide-6361391eecad
+2. https://chatgpt.com/?model=auto
