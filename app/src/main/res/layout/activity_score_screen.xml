@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#020202"
     tools:context=".ScoreScreen">
 
     <TextView
@@ -14,6 +15,7 @@
         android:layout_marginTop="40dp"
         android:gravity="center"
         android:text="TextView"
+        android:textColor="#F6F6F6"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -28,6 +30,7 @@
         android:gravity="center"
         android:hint=""
         android:text=""
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
@@ -39,6 +42,7 @@
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="140dp"
+        android:backgroundTint="#FF0000"
         android:text="Review"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,6 +54,7 @@
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+        android:backgroundTint="#FF0000"
         android:text="Exit"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

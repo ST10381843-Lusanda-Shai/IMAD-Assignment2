@@ -10,6 +10,12 @@ import androidx.appcompat.app.AppCompatActivity
 import kotlin.system.exitProcess
 
 class ScoreScreen : AppCompatActivity() {
+
+    // Code Attribution
+    // This method was taken from
+    //https://medium.com/@atushar580/building-an-android-quiz-app-with-kotlin-a-step-by-step-guide-6361391eecad
+    //Anand, Tushar
+    //https::/medium.com/@atushar580
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

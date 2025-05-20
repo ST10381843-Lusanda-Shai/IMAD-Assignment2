@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,6 +15,7 @@
         android:layout_marginTop="48dp"
         android:gravity="center"
         android:text="Flashcard Quiz Application"
+        android:textColor="#FFFFFF"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -27,6 +29,7 @@
         android:layout_marginTop="200dp"
         android:gravity="center"
         android:text="Welcome to your flashcard quiz application. The app will privide with questions that you will have to answer and you will be prived an overall score on how well you did. With that said I welcome you to the application and hope you do well"
+        android:textColor="#FBF9F9"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
@@ -38,6 +41,7 @@
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="224dp"
+        android:backgroundTint="#FF0000"
         android:text="Start"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,6 +53,7 @@
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100dp"
+        android:backgroundTint="#FF0000"
         android:text="Exit"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

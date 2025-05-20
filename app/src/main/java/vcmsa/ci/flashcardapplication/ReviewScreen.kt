@@ -10,6 +10,11 @@ import kotlin.system.exitProcess
 
 class ReviewScreen : AppCompatActivity() {
 
+    // Code Attribution
+    // This method was taken from
+    //https://chatgpt.com/?model=auto-
+    //Artificial Intelligence: ChatGPT
+
     data class Question(
         val questionText: String,
         val answersText: String
@@ -51,7 +56,7 @@ class ReviewScreen : AppCompatActivity() {
 
         //Back button for the user
         back2Btn.setOnClickListener {
-            val intent = Intent(this, ScoreScreen::class.java)
+            val intent = Intent(this, QuizScreen::class.java)
             startActivity(intent)
         }
 
