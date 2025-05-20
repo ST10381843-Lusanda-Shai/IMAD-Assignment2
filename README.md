@@ -27,3 +27,10 @@ REFERENCES
 
 1. https://medium.com/@atushar580/building-an-android-quiz-app-with-kotlin-a-step-by-step-guide-6361391eecad
 2. https://chatgpt.com/?model=auto
+3. ![image](https://github.com/user-attachments/assets/40163e54-e919-4f1f-9845-02c390ab451a)
+4. ![image](https://github.com/user-attachments/assets/df0ccfeb-ab54-4c26-b03d-c41b7c1bbdc7)
+5. ![image](https://github.com/user-attachments/assets/e8a7f3ad-9ba6-4e25-9218-911103be23bc)
+6. The reason I used ChatGPT was because I couldn’t find any resources that would help me build the review screen functions to help show the questions and answers to those questions. I used the AI today late at midnight at 2am. There is the second part of the 3rd screenshot that is missing since the website was accidently refreshed.
+
+
+
