@@ -15,6 +15,7 @@ class ScoreScreen : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_score_screen)
 
+        //Initialising the values for my buttons and text views
        val quizScoreTextView = findViewById<TextView>(R.id.quizScoreTextView)
        val quizFeedbackTextView = findViewById<TextView>(R.id.quizFeedbackTextView)
        val reviewBtn = findViewById<Button>(R.id.reviewBtn)
